@@ -7,20 +7,6 @@ class Location extends StatefulWidget {
 
 class _LocationState extends State<Location> {
   
-  getData() async{
-    await Future.delayed(Duration(seconds : 3) , () {
-      print('await function printed');
-    });
-  }
-
-  @override
-  void initState() {
-    // TODO: implement initState
-
-getData();
-
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
